@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container {
+    display: flex;
+    width: 100vw; 
+    justify-content: center;
+    flex-direction: column;
+  }
+  header {
+    flex-basis: 20px;
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  header nav {
+      text-align: center;
+      display: flex;
+      text-decoration: none;
+  }
+section {
+    margin-top: 100px;
+    display: block;
+width: 100%;
+height: 400px;
+
+margin: 50px;
+}
+main>section>div>img
+    {
+        box-sizing: border-box;
+        width: 400px;
+        height: 400px;
+        padding: 0;
+        margin: 0;
+        float: right;
+              
+}
+.text1 {
+    box-sizing: border-box;
+    width: 30%;
+    height: 280px;
+    margin: 0;
+    float: left; 
+    padding: 50px;
+    
+}
+
+.text2 {
+    box-sizing: border-box;
+    width: 60%;
+    height: 280px;
+    padding: 40px;
+    margin: 0;
+    float: right; 
+}
+.picture2 {
+    float: left;
+}
+
+.text3 {
+    box-sizing: border-box;
+    width: 60%;
+    height: 280px;
+    padding: 40px;
+    margin: 0;
+    float: left; 
+}
+.picture3 {
+    float: right;
+}
+.heading {
+    text-align: center;
+}
+.pic {
+    display: block;
+    width: 100%;
+    height: 400px;
+   
+    margin: 30px;
+}
+.pic>img {
+    box-sizing: border-box;
+    width: 23%;
+    height: 300px;
+    margin: 0;
+}
+
+
+.featurs {
+    width: 100vw;
+   align-content: center;
+    margin-left: 30px;
+    flex-wrap: wrap;
+}
+.featurs1 {
+    display:inline-block;
+    text-align: center;
+    align-content: center;
+    padding: 25px;
+    justify-content: center;
+   height: 250px;
+   width: 25%;
+   border-right: 2px  solid grey;
+   border-bottom: 2px  solid grey;
+   
+   font-family: sans-serif;
+   font-weight: 800;
+   line-height: 2;
+   font-size: small;
+   }
+  
+   h3 {
+       margin: 15px;
+   }
+   
+   ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+    padding: 0.2em;
+}
+h2 {
+    text-align: center;
+    margin: 50px;
+}
+form {
+    width: 80vw;
+    margin: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    padding: 10px;
+      border-radius: 1em;
+}
+input {
+    width: 200px;
+   
+    border: 1px solid grey;
+}
+input:focus {
+    border: 2px solid red;
+}
+input:hover {
+    background-color: silver;
+}
+input[type="checkbox"],
+input[type="radio"]{
+    width: auto;
+}
+ span {
+    width: 150px;
+    text-align: right;
+    display: inline-block;
+}
+#regBtn {
+    margin: auto;
+    display: block;
+}
